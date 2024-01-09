@@ -6,6 +6,6 @@ public class CarMain {
   }
 
   public void sayHello() {
-    System.out.println("CarFactory! v3.0");
+    System.out.println("CarFactory! v4.0");
   }
 }

@@ -6,7 +6,7 @@
 
     <groupId>org.kimfri</groupId>
     <artifactId>factories</artifactId>
-    <version>3.0-SNAPSHOT</version>
+    <version>4.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <modules>
         <module>carfactory</module>
