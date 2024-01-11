@@ -6,7 +6,7 @@
 
     <groupId>org.kimfri</groupId>
     <artifactId>factories</artifactId>
-    <version>4.0-SNAPSHOT</version>
+    <version>5.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <modules>
         <module>carfactory</module>
@@ -18,5 +18,24 @@
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-source-plugin</artifactId>
+                <version>3.3.0</version>
+                <executions>
+                    <execution>
+                        <id>attach-sources</id>
+                        <phase>verify</phase>
+                        <goals>
+                            <goal>jar-no-fork</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
 
 </project>

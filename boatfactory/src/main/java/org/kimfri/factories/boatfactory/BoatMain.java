@@ -6,6 +6,6 @@ public class BoatMain {
   }
 
   public void sayHello() {
-    System.out.println("BoatFactory!! v4.0");
+    System.out.println("BoatFactory!! v5.0");
   }
 }
